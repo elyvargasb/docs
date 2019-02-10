@@ -156,7 +156,8 @@ nav {
 body {
   height: 100%;
   font-family: "Text Me One", sans-serif;
-  background-image: url("../imgs/background.jpg");}
+  background-image: url("../imgs/background.jpg");
+  background-size: contain;}
 
 .container {
   max-width: 68em;
