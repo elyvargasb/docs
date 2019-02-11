@@ -199,6 +199,9 @@ body {
 
   .item-1{
   	animation-name: anim-1;
+    background-image: url("../imgs/isotipe-slider.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .item-2{
