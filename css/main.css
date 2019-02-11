@@ -175,8 +175,7 @@ body {
   top: -2vh;
   right: 2px;
   left: 2px;
-  height: 75vh;
-  overflow: hidden;}
+  height: 75vh;}
 
   /* Text slider styles */
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
