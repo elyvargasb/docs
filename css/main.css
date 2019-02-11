@@ -129,7 +129,7 @@ margin-right: 15px; }
   top: 0;
   left: 0;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   overflow-x: hidden;
   transition: 0.5s; }
 
@@ -190,7 +190,7 @@ body {
   height: 75vh;
   overflow: hidden;}
 
-  /* Slider styles */
+  /* Slides styles */
 
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
@@ -262,18 +262,22 @@ footer div{
 
   @media screen and (max-width: 768px) {
     #logo{
-      top: 50%
+      margin-top: -50%;
+      left:18%;
     }
     #menu{
-      top: 100%;
+      margin-top: 20%;
     }
     .item-1,
     .item-2,
     .item-3 {
     	width: 70%;
-      font-size: 3em;
-    }
+      font-size: 3em; }
     .item-1 img{
-      width: 150%;
-    }
+      width: 130%;
+      margin-left: -30px;}
+    .sign-up {
+      top: 83%;}
+    .slider {;
+      left:-18px;}
   }
