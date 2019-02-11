@@ -190,7 +190,8 @@ body {
 
     width: 60%;
 
-    font-size: 2em;
+    font-size: 10em;
+    text-align: center;
 
   	animation-duration: 20s;
   	animation-timing-function: ease-in-out;
@@ -199,9 +200,6 @@ body {
 
   .item-1{
   	animation-name: anim-1;
-    background-image: url("../imgs/isotipe-slider.png");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .item-2{
