@@ -156,7 +156,9 @@ nav {
 body {
   height: 100%;
   font-family: "Text Me One", sans-serif;
-  background-image: url("../imgs/background.jpg");}
+  background-image: url("../imgs/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .container {
   max-width: 68em;
@@ -174,11 +176,9 @@ body {
   right: 2px;
   left: 2px;
   height: 75vh;
+  overflow: hidden;}
 
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-  /* Text slider styles
+  /* Text slider styles */
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
 /*body {
@@ -186,7 +186,7 @@ body {
   color: #cecece;
   background-image: url("/imgs/background.jpg");
   overflow: hidden;
-}
+}*/
 
 .item-1,
 .item-2,
@@ -232,7 +232,7 @@ body {
 	0%, 66.66% { left: -100%; opacity: 0; }
   74.96%, 91.62% { left: 25%; opacity: 1; }
   100% { left: 110%; opacity: 0; }
-}*/
+}
 
 
 footer {
