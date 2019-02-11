@@ -36,11 +36,11 @@ nav {
 .sign-up {
   float: left;
   position: fixed;
-  top: 25%;
+  top: 50%;
   left: 0px;
-  width: 220px;
+  width: 170px;
   height: 50px;
-  background-color: #8ced42; }
+  background-color: #85e23e; }
 
 #mc_embed_signup {
   background: #fff;
@@ -231,7 +231,7 @@ body {
     74.96%, 91.62% { left: 25%; opacity: 1; }
     100% { left: 110%; opacity: 0; }
   }
-  
+
 footer {
   display: flex;
   height: 45px;
