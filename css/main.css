@@ -17,6 +17,20 @@ nav {
     nav ul li {
       padding: 5px; }
 
+#menu{
+  display: block;
+}
+#logo {
+display: block;
+text-align: center;
+float: left;
+position: relative;
+top: 10%;
+bottom: 12px;
+left: 45%;
+margin-top: -75px;
+margin-right: 15px; }
+
 #social {
   display: flex;
   float: right;
