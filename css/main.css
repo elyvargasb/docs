@@ -177,14 +177,9 @@ body {
   left: 2px;
   height: 75vh;}
 
-  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+  /* Slider styles */
 
-  body {
-    font-family: 'Open Sans', 'sans-serif';
-    color: #cecece;
-    background: #222;
-    overflow: hidden;
-  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
   .item-1,
   .item-2,
