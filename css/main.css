@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 html {
   box-sizing: border-box; }
 
@@ -167,7 +167,7 @@ margin-right: 15px; }
 
 body {
   height: 100%;
-  font-family: "Inconsolata", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   background-image: url("../imgs/background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
