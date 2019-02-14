@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding");
 html {
   box-sizing: border-box; }
 
@@ -167,7 +167,7 @@ margin-right: 15px; }
 
 body {
   height: 100%;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Nanum Gothic Coding", monospace;
   background-image: url("../imgs/background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
@@ -200,7 +200,7 @@ body {
   	position: absolute;
     display: block;
   	top: 0em;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Nanum Gothic Coding", monospace;
     width: 64%;
 
     font-size: 5em;
