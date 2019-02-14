@@ -5,7 +5,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-nav {
+/*nav {
   overflow: hidden;
   width: 100%; }
   nav ul {
@@ -43,6 +43,73 @@ margin-right: 15px; }
     padding-left: 5px;
     color: black; }
 
+*/
+
+
+* {box-sizing: border-box;}
+
+nav {
+  overflow: hidden;
+  width: 100%;
+  display: flex;}
+  nav ul {
+  width: 300px;
+  list-style-type: none;
+  padding-left: 0px;}
+  nav ul a {
+    text-decoration: none;
+    color: black; }
+  nav ul li {
+    padding: 5px; }
+
+    .header {
+      overflow: hidden;
+      padding: 10px;
+    }
+
+    .header a {
+      color: black;
+      text-align: left;
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 25px;
+      border-radius: 4px;
+    }
+
+   .header-left {
+      float: left;
+      width: 45%;
+    }
+
+    .header a .logo img{
+    padding-top: 500px;}
+
+    #social {
+      float: right;
+      position: relative; }
+      #social a {
+        text-decoration: none;
+        padding-left: 5px;
+        color: black; }
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-left {
+    float: none;
+  }
+  #social{
+    float: none;
+  }
+}
 
 /***** Sign Up Form ****/
 .sign-up {
@@ -57,7 +124,7 @@ margin-right: 15px; }
 #mc_embed_signup {
   background: #fff;
   clear: left;
-  font: 14px Helvetica,Arial,sans-serif;
+  font: 14px "Nanum Gothic Coding", monospace;
   padding: 5%; }
 
 .overlay {
@@ -118,7 +185,7 @@ margin-right: 15px; }
 #mc_embed_signup {
   background: #fff;
   clear: left;
-  font: 14px Helvetica,Arial,sans-serif;
+  font: 14px "Nanum Gothic Coding", monospace;
   padding: 5%; }
 
 .overlay {
@@ -261,13 +328,19 @@ footer div{
   /*Responsive*/
 
   @media screen and (max-width: 768px) {
-    #logo{
+    /*#logo{
       margin-top: -50%;
       left:18%;
     }
     #menu{
       margin-top: 20%;
-    }
+    }*/
+
+    nav a{
+    float: none;
+    display: block;
+    text-align: left;}
+
     .item-1,
     .item-2,
     .item-3 {
