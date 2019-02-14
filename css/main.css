@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Text+Me+One");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
 html {
   box-sizing: border-box; }
 
@@ -167,7 +167,7 @@ margin-right: 15px; }
 
 body {
   height: 100%;
-  font-family: "Text Me One", sans-serif;
+  font-family: "Inconsolata", sans-serif;
   background-image: url("../imgs/background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
@@ -200,7 +200,7 @@ body {
   	position: absolute;
     display: block;
   	top: 0em;
-
+    font-family: "Inconsolata", sans-serif;
     width: 64%;
 
     font-size: 5em;
