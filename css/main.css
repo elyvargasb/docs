@@ -200,7 +200,7 @@ body {
   	position: absolute;
     display: block;
   	top: 0em;
-    font-family: "Inconsolata", sans-serif;
+    font-family: "IBM Plex Mono", monospace;
     width: 64%;
 
     font-size: 5em;
