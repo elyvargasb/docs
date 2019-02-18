@@ -27,7 +27,7 @@ nav {
     }
 
     .logo{
-      padding-left: 5%;
+      padding-left: 10%;
     }
 
     #social {
@@ -38,8 +38,9 @@ nav {
         padding-left: 5px;
         color: black; }
 
-    #menu-icon {
-	     display: hidden;
+     #menu-icon {
+	     display: none;
+       color: #fff;
         }
 
         a:hover#menu-icon {
@@ -52,9 +53,11 @@ nav {
   nav {
     flex-direction: column-reverse;
   }
-
+  .logo img{
+    width: 350%;
+  }
   #social{
-    margin-left: 5%;
+    margin-left: 70%;
   }
   #social a{
     display: inline;
@@ -64,7 +67,8 @@ nav {
     margin-left: 7%;
     width: 40px;
     height: 40px;
-    background: #000 url(../img/menu-icon.png) center;
+    background: #000;
+    padding: 10px 11px;
 	}
 
 	nav ul, nav:active ul {
@@ -72,7 +76,7 @@ nav {
 		position: absolute;
 		padding: 20px;
 		background: #fff;
-		top: 100px;
+		top: 125px;
 		width: 95%;
 		border-radius: 4px 0 4px 4px;
     z-index: 4;
@@ -98,68 +102,9 @@ nav {
   left: 0px;
   width: 170px;
   height: 50px;
-  background-color: #85e23e; }
-
-#mc_embed_signup {
-  background: #fff;
-  clear: left;
-  font: 14px "Nanum Gothic Coding", monospace;
-  padding: 5%; }
-
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: black;
-  background-color: rgba(0, 0, 0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s; }
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px; }
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s; }
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1; }
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px; }
-
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px; }
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px; } }
-
-/***** Sign Up Form ****/
-.sign-up {
-  float: left;
-  position: fixed;
-  top: 50%;
-  left: 0px;
-  width: 170px;
-  height: 50px;
   background-color: #85e23e;
-  z-index: 4; }
+  z-index: 4;
+  padding: 10px;}
 
 #mc_embed_signup {
   background: #fff;
@@ -203,13 +148,17 @@ nav {
   right: 45px;
   font-size: 60px; }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 768px) {
   .overlay a {
     font-size: 20px; }
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
-    right: 35px; } }
+    right: 35px; }
+
+  .sign-up {
+    top: 77%;}
+  }
 
 body {
   height: 100%;
@@ -287,39 +236,8 @@ body {
     100% { left: 110%; opacity: 0; }
   }
 
-footer {
-  display: flex;
-  height: 45px;
-  position: fixed;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  margin: 1px;
-  color: white;
-  background-color: black;
-  width: 100%;}
-
-footer div{
-  width: 50%;
-  padding: 0em 2em;
-}
-
-  /*Responsive*/
 
   @media screen and (max-width: 768px) {
-    /*#logo{
-      margin-top: -50%;
-      left:18%;
-    }
-    #menu{
-      margin-top: 20%;
-    }*/
-
-    nav a{
-    float: none;
-    display: block;
-    text-align: left;}
-
     .item-1,
     .item-2,
     .item-3 {
@@ -328,8 +246,35 @@ footer div{
     .item-1 img{
       width: 130%;
       margin-left: -30px;}
-    .sign-up {
-      top: 83%;}
+    .item-2,
+    .item-3 {
+      margin-left: -20%;
+      width: 100%;
+    }
     .slider {;
-      left:-18px;}
+      left:-10px;
+      top:10px;}
+  }
+
+  footer {
+    display: flex;
+    height: 45px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 1px;
+    color: white;
+    background-color: black;
+    width: 100%;}
+
+  footer div{
+    width: 50%;
+    padding: 0em 2em;
+  }
+
+  @media screen and (max-width: 768px) {
+    footer{
+      height: 13%;
+    }
   }
