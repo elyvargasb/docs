@@ -52,8 +52,9 @@ nav {
 @media screen and (max-width: 768px) {
 
 .logo{
-  margin-top: 2%;
-  
+  margin-top: 1%;
+  margin-left: -4%;
+
 }
 
   #menu-icon {
@@ -151,7 +152,7 @@ nav {
     right: 35px; }
 
   .sign-up {
-    top: 77%;}
+    top: 75%;}
   }
 
 body {
@@ -263,7 +264,7 @@ body {
 
   footer div{
     width: 50%;
-    padding: 0em 2em;
+    padding: 0em 1em;
   }
 
   @media screen and (max-width: 768px) {
