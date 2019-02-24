@@ -30,9 +30,9 @@ nav {
       padding-left: 10%;
     }
 
-    #social {
+    /*#social {
       margin-top: 4%;
-      margin-left: 25%;}
+      margin-left: 25%;}*/
       #social a {
         text-decoration: none;
         padding-left: 5px;
@@ -50,18 +50,12 @@ nav {
 
 
 @media screen and (max-width: 768px) {
-  nav {
-    flex-direction: column-reverse;
-  }
-  .logo img{
-    width: 350%;
-  }
-  #social{
-    margin-left: 70%;
-  }
-  #social a{
-    display: inline;
-  }
+
+.logo{
+  margin-top: 2%;
+  
+}
+
   #menu-icon {
     display:inline-block;
     margin-left: 7%;
@@ -252,8 +246,7 @@ body {
       width: 100%;
     }
     .slider {;
-      left:-10px;
-      top:10px;}
+      left:-10px;}
   }
 
   footer {
